@@ -23,7 +23,7 @@ Gli script principali disponibili sono due, si trovano entrambi nella directory 
 1) cdo_clima.sh
 2) cdo_alldays.sh
 
-N.B. Solo la stazione di Milano viene aggiornata con i nuovi dati ogni giorno (entro le ore 10:00). I dettagli degli aggiornamenti sono in capo ad Antioco Vargiu.
+N.B. Solo la stazione di Milano viene aggiornata con i nuovi dati ogni giorno (entro le ore 10:00). I dettagli degli aggiornamenti sono in capo ad Antioco Vargiu (a.vargiu@arpalombardia.it).
 
 ### Esempio script n°1:
 ```
@@ -62,6 +62,10 @@ Scegli la città di cui vuoi visualizzare il clima e l'anno
 milano 2020
 ```
 Lo script produrrà in automatico 5 immagini, reperibili su Gagliardo nella seguente cartella _/home/meteo/clich/output_ e che descrivono l'evoluzione dei parametri meteo per l'anno scelto con le rispettive anomalie. Per i dettagli vi invito a consultare il file pdf riassuntivo [Documentazione CLICH](https://github.com/ARPASMR/CLICH4/blob/master/Documentazione%20processi%20di%20clich%20-%20Clima%20Lombardia.pdf) e a consultare la cartella esempi_script_2 presente in questa repository.
+
+## Immagini presenti su GHOST
+Attualmente, per consultazione, sono presenti su GHOST (10.10.0.14) alcuni output significativi per il clima di riferimento di ognuna delle cinque città. I dati sono consultabili nel link di seguito: [http://10.10.0.14/clima/RIFERIMENTO/](http://10.10.0.14/clima/RIFERIMENTO/)
+La pagina web è stata costruita da Maria Ranci (m.ranci@arpalombardia.it)
 
 ## Avvertenze e nuovi sviluppi
 
