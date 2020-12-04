@@ -15,7 +15,11 @@ Per ognuna di queste stazioni sono definiti i parametri giornalieri (registrati 
 - Precipitazione cumulata (prec)
 
 ## Funzionamento script
-I dati delle cinque serie storiche sono contenuti all'interno di altrettanti files denominati es: "milano_clima.nc", quest'ultimi elaborati da diversi script che si occupano di produrre le elaborazioni citate nel paragrafo successivo e visionabili negli esempi di questa repository. L'elenco degli script è visionabile nel file pdf riassuntivo [Documentazione CLICH](https://github.com/ARPASMR/CLICH4/blob/master/Documentazione%20processi%20di%20clich%20-%20Clima%20Lombardia.pdf)
+I dati delle cinque serie storiche sono contenuti all'interno di altrettanti file NetCDF denominati es: "milano_clima.nc", quest'ultimi elaborati da diversi script che si occupano di produrre le elaborazioni citate nel paragrafo successivo e visionabili negli esempi di questa repository. L'elenco degli script è visionabile nel file pdf riassuntivo [Documentazione CLICH](https://github.com/ARPASMR/CLICH4/blob/master/Documentazione%20processi%20di%20clich%20-%20Clima%20Lombardia.pdf)
+
+I file NetCDF sono contenuti in _/home/meteo/clich/input_ e vengono elaborati dagli script in bash sopramenzionati con l'ausilio di istruzioni CDO (Climate Data Operators) [Link al sito ufficiale](https://code.mpimet.mpg.de/projects/cdo/)
+
+Le elaborazioni vengono successivamente "riprese" da script scritti in _R_ per la produzione degli output finali. 
 
 ## Utilizzo degli script
 Le procedure allo stato attuale (04/12/2020) non vengono eseguite in automatico, ma possono essere fatte funzionare "manualmente" attraverso l'accesso al server di GAGLIARDO (10.10.0.15). 
@@ -73,6 +77,7 @@ _AVVERTENZE_
 
 Lo script cdo_alldays.sh produce una tabella contenente le classifiche aggiornate di ogni mese rispetto a tutto il clima della serie storica per quel singolo mese (es. maggio 2020 è il 4° più caldo e il 116° più freddo). Dal punto di vista operativo la classifica viene stilata sulla base di una matrice di dati che viene prodotta da cdo_clima.sh. 
 Di conseguenza, nel caso di analisi "operativa" (es. Milano nell'anno in corso) è necessario prima far "girare" lo script cdo_clima.sh per l'intera serie storica (es. milano 1901 2020), poi rinominare i file _Matrice_Tmin_mean_clima_ordinata_milano.csv_ e _Matrice_Tmax_mean_clima_ordinata_milano.csv_ presenti in _/home/meteo/clich/input_ aggiungendo il suffisso _fixed_ (es. _Matrice_Tmin_mean_clima_ordinata_milano_fixed.csv_)
+
 
 _SVILUPPI_
 
