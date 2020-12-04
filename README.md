@@ -39,7 +39,7 @@ N.B. Solo la stazione di Milano viene aggiornata con i nuovi dati ogni giorno (e
 Seleziona stazione e periodo di riferimento con modalità: città annoinizio annofine
 milano 1901 2020
 ```
-Lo script produrrà in automatico otto immagini, reperibili su Gagliardo nella seguente cartella _/home/meteo/clich/output_ e che descrivono il clima di riferimento per il periodo scelto. Per i dettagli vi invito a consultare il file pdf riassuntivo e a consultare la cartella esempi_script_1 presente in questa repository.
+Lo script produrrà in automatico otto immagini, reperibili su Gagliardo nella seguente cartella _/home/meteo/clich/output_ e che descrivono il clima di riferimento per il periodo scelto. Per i dettagli vi invito a consultare il file pdf riassuntivo (Documentazione processi di clich - Clima Lombardia.pdf) e a consultare la cartella esempi_script_1 presente in questa repository.
 
 ### Esempio script n°2:
 ```
@@ -58,4 +58,4 @@ Lo script produrrà in automatico otto immagini, reperibili su Gagliardo nella s
 Scegli la città di cui vuoi visualizzare il clima e l'anno
 milano 2020
 ```
-Lo script produrrà in automatico 5 immagini, reperibili su Gagliardo nella seguente cartella _/home/meteo/clich/output_ e che descrivono l'evoluzione dei parametri meteo per l'anno scelto con le rispettive anomalie. Per i dettagli vi invito a consultare il file pdf riassuntivo e a consultare la cartella esempi_script_2 presente in questa repository.
+Lo script produrrà in automatico 5 immagini, reperibili su Gagliardo nella seguente cartella _/home/meteo/clich/output_ e che descrivono l'evoluzione dei parametri meteo per l'anno scelto con le rispettive anomalie. Per i dettagli vi invito a consultare il file pdf riassuntivo (Documentazione processi di clich - Clima Lombardia.pdf) e a consultare la cartella esempi_script_2 presente in questa repository.
