@@ -9,7 +9,7 @@ Le stazioni scelte sono:
 - Mantova (disponibile dal 1901 al 2015) - Stazione in uso "Mantova Lunetta"
 - Pavia (disponibile dal 1950 al 2015) - Stazione in uso "Pavia Ponte Ticino"
 
-Per ognuna di queste stazioni sono definiti i parametri giornalieri di:
+Per ognuna di queste stazioni sono definiti i parametri giornalieri (registrati in modalità 9-9) di:
 - Temperatura minima (tempMin)
 - Temperatura massima (tempMax)
 - Precipitazione cumulata (prec)
@@ -20,6 +20,7 @@ Gli script principali disponibili sono due, si trovano entrambi nella directory 
 1) cdo_clima.sh
 2) cdo_alldays.sh
 
+N.B. Solo la stazione di Milano viene aggiornata con i nuovi dati ogni giorno (entro le ore 10:00). I dettagli degli aggiornamenti sono in capo ad Antioco Vargiu.
 
 ### Esempio script n°1:
 ```
